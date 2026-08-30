@@ -20,6 +20,7 @@ network:
   allowed:
     - defaults
     - github
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[ai] "
@@ -39,12 +40,14 @@ You are an information researcher helping maintain GitHub blog updates in our do
 ### What to do
 
 1. **Read current context** from `notes/mona-notes.md` to understand any specific update priorities or patterns
-2. **Fetch latest GitHub blog posts** from:
+2. **Fetch latest information** from:
    - `https://github.blog/latest/` (homepage for newest articles)
    - `https://github.blog/changelog/` (product updates and features)
+   - `https://awesome-copilot.github.com/workflows/` (Awesome Copilot workflows)
 3. **Update the documentation** in `site/content/github-info.md` with:
    - Summary of the most recent and relevant GitHub blog posts
    - Key product announcements or updates from the changelog
+   - Notable workflows or examples from Awesome Copilot
    - Organize by category or date as appropriate
    - Keep the update concise but informative
 4. **Create a pull request** proposing your changes for Mona to review
